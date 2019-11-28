@@ -11109,7 +11109,29 @@ a.text-dark:focus {
 }
 
 body {
+  background-color: #999;
   font-family: "Barlow", sans-serif;
+}
+
+.btn {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .btn {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+  }
 }
 
 .main-site-nav__list {
@@ -11137,6 +11159,10 @@ body {
   -webkit-transform: scaleY(1.000000001);
           transform: scaleY(1.000000001);
   pointer-events: auto;
+}
+
+.main-site-nav__item--current .main-site-nav__link {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .main-site-nav__link {
@@ -11207,5 +11233,46 @@ body {
   text-decoration: none;
   -webkit-transform: translateX(0.25rem);
           transform: translateX(0.25rem);
+}
+
+.meta-nav {
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.meta-nav .btn {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.meta-nav__cart-link {
+  display: block;
+  position: relative;
+}
+
+.meta-nav__cart-link:hover .meta-nav__cart-count {
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.meta-nav__cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #F63321;
+  font-size: 1.1rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  -webkit-transform: translate(50%, -50%) scale(0.7);
+          transform: translate(50%, -50%) scale(0.7);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  will-change: transform;
 }
 
