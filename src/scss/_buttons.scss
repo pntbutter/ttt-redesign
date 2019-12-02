@@ -9,6 +9,10 @@
 
   &-primary {
     color: color-yiq($primary);
+
+    &:hover {
+      background-color: darken($primary, 20%);
+    }
   }
 }
 

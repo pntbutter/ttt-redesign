@@ -8,9 +8,9 @@ import Swiper from 'swiper';
 var mySwiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   loop: true,
-  speed: 4000,
+  speed: 1000,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     disableOnInteraction: false
   }
 });
