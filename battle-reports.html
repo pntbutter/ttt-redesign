@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700|Barlow:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/app.css">
+
+    <title>TTT Redesign</title>
+  </head>
+  <body>
+    <header class="site-header  bg-black">
+        <div class="container  container--lg  d-flex  align-items-center  justify-content-between">
+          <img class="m-3" src="dist/img/header-logo.png">
+  
+          <div class="site-header__nav-holder  d-flex">
+            <nav class="main-site-nav  mr-3">
+              <ul class="main-site-nav__list  d-flex  p-0  m-0">
+                <li class="main-site-nav__item  main-site-nav__item--current">
+                  <a class="main-site-nav__link" title="The current menu item" href="#">Home</a>
+                </li>
+                <li class="main-site-nav__item  main-site-nav__item--with-dropdown">
+                  <a class="main-site-nav__link" href="#">
+                    Shows <i class="main-site-nav__chevron" data-feather="chevrons-down"></i>
+                  </a>
+  
+                  <ul class="main-site-nav__dropdown  m-0">
+                    <li class="main-site-nav__dropdown-item">
+                      <a class="main-site-nav__dropdown-link" href="#">
+                        Battle reports
+                      </a>
+                    </li>
+                    <li class="main-site-nav__dropdown-item">
+                      <a class="main-site-nav__dropdown-link" href="#">
+                        Campaign reports
+                      </a>
+                    </li>
+                    <li class="main-site-nav__dropdown-item">
+                      <a class="main-site-nav__dropdown-link" href="#">
+                        Narrative reports
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-site-nav__item">
+                  <a class="main-site-nav__link" href="#">Data slates</a>
+                </li>
+                <li class="main-site-nav__item">
+                  <a class="main-site-nav__link" href="#">Shop</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <nav class="meta-nav  d-flex  align-items-center  my-3  ml-3  p-2  pr-lg-4">
+              <a class="btn  btn-primary" href="#">Subscribe</a>
+  
+              <a class="btn  btn-link  text-white" href="#">Log in</a>
+  
+              <a class="meta-nav__cart-link  mr-2  text-white" href="#">
+                <i data-feather="shopping-cart" class="meta-nav__cart-icon"></i>
+                <span class="meta-nav__cart-count">5</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="archive  js-archive">
+        <header class="text-right">
+          <button class="btn  btn-link  js-archive-view-toggle">
+              <span class="d-inline-flex  align-items-center  js-archive-list">
+                <i class="mr-2"  data-feather="list"></i>
+                Toggle list
+              </span>
+
+              <span class="d-inline-flex  align-items-center  js-archive-grid">
+                <i class="mr-2"  data-feather="grid"></i>
+                Toggle grid
+              </span>
+          </button>
+        </header>
+      </div>
+
+      <footer class="site-footer  py-4  bg-black  text-white">
+        <div class="d-flex  align-items-center  justify-content-center">
+          <img class="mr-4" src="dist/img/logo-symbol.png">
+  
+          <nav class="d-flex  flex-column  pb-3">
+            <a class="site-footer__link" href="#">Shows</a>
+            <a class="site-footer__link" href="#">Shop</a>
+            <a class="site-footer__link" href="#">Data slates</a>
+            <a class="site-footer__link" href="#">Privacy & terms</a>
+            <a class="site-footer__link" href="#">Contact</a>
+          </nav>
+        </div>
+  
+        <div class="site-footer__copyright  text-center">
+            © 2015 - 2019 Tabletop Tactics - All rights reserved
+        </div>
+      </footer>
+
+      <script src="dist/app.js"></script>
+    </body>
+  </html>

@@ -2,6 +2,24 @@
   background-color: $black;
 }
 
+.bg-battle-report     { background-color: $battle-report !important; }
+.bg-tactica-report    { background-color: $tactica-report !important; }
+.bg-narrative-report  { background-color: $narrative-report !important; }
+.bg-campaign-report   { background-color: $campaign-report !important; }
+.bg-vox-cast          { background-color: $vox-cast !important; }
+.bg-list-analysis     { background-color: $list-analysis !important; }
+.bg-cast-of-players   { background-color: $cast-of-players !important; }
+.bg-data-slate        { background-color: $data-slate !important; }
+
+.text-battle-report     { color: $battle-report !important; }
+.text-tactica-report    { color: $tactica-report !important; }
+.text-narrative-report  { color: $narrative-report !important; }
+.text-campaign-report   { color: $campaign-report !important; }
+.text-vox-cast          { color: $vox-cast !important; }
+.text-list-analysis     { color: $list-analysis !important; }
+.text-cast-of-players   { color: $cast-of-players !important; }
+.text-data-slate        { color: $data-slate !important; }
+
 .font-alt {
   font-family: $font-alt;
 }

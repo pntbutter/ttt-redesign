@@ -1,3 +1,5 @@
+import './archive-toggle';
+
 // Icons
 const feather = require('feather-icons');
 feather.replace();
